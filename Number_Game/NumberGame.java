@@ -1,4 +1,4 @@
-package Number_game;
+package Number_Game;
 import java.util.*;
 import java.lang.*;
 public class NumberGame {
@@ -10,7 +10,7 @@ public class NumberGame {
 	public static void main(String[] args) {
 		System.out.println("\n\t\t***** Welcome to the Number Game *****\t\t\n");
 		Scanner sc=new Scanner(System.in);
-		Number obj=new Number();
+		NumberGame obj=new NumberGame();
 		boolean choice=true;
 		int successCount=0,attempts=0;
 		while(choice) {
