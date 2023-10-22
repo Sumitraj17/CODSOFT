@@ -1,9 +1,7 @@
-package Number_Game;
+package Code;
 import java.util.*;
-import java.lang.*;
 public class Student {
     private char gradeFunction(float num){
-        char c;
         if(num>=85){
             return 'A';
         }
@@ -39,5 +37,6 @@ public class Student {
         System.out.println("Total Marks :- "+totalMarks);
         System.out.println("Average Marks :- "+avgMarks+" %");
         System.out.println("Grades Obtained :- "+obj.gradeFunction(avgMarks));
+        sc.close();
     }
 }

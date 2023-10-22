@@ -1,6 +1,5 @@
 package Code;
 import java.util.*;
-import java.lang.*;
 public class NumberGame {
 	public int random() {
 		int range=100-0+1;
@@ -52,6 +51,7 @@ public class NumberGame {
 			}
 		}
 		System.out.println("\n\t\t***** The Success Ratio is "+(successCount/(float)attempts)*100+" *****\t\t\n");
+		sc.close();
 	}
 	
 
