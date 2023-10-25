@@ -58,10 +58,8 @@ public class AtmMachine {
         }
         boolean choice=true;
         while(choice){
-
-            int c;
             System.out.println("\n\t\t***** 1:- WidthDraw\t2:-Deposit\t3:-Check Balance\t4:-Exit *****\t\t\n");
-            c=sc.nextInt();
+            int c=sc.nextInt();
             switch(c){
                 case 1:System.out.println("\nAmount:- ");
                         int withdraw_amount=sc.nextInt();
